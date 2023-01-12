@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/categories")
+@RequestMapping("/api/catalog/categories")
 @Slf4j
 public class CategoryController {
     private CategoryService categoryService;

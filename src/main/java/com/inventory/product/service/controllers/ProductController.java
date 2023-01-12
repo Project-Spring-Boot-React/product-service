@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/products")
+@RequestMapping("/api/catalog/products")
 @Slf4j
 public class ProductController {
     @Autowired
